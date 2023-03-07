@@ -1,0 +1,73 @@
+{
+    "name": "alireza5014/bigbluebutton",
+    "description": "BigBlueButton Server API Library for Laravel",
+    "keywords": [
+        "alireza5014",
+        "bigbluebutton",
+        "api",
+        "bbb",
+        "meeting",
+        "package",
+        "laravel-package",
+        "laravel",
+        "php"
+    ],
+    "homepage": "https://github.com/alireza5014/bigbluebutton",
+    "license": "MIT",
+    "version": "v1.2.5",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jignesh Joisar",
+            "email": "jigneshjoisar@gmail.com",
+            "homepage": "https://jigneshjoisar.web.app",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
+        "bigbluebutton/bigbluebutton-api-php": "^2.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alireza5014\\Bigbluebutton\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alireza5014\\Bigbluebutton\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/alireza5014/bigbluebutton",
+        "issues": "https://github.com/alireza5014/bigbluebutton/issues",
+        "docs": "https://github.com/alireza5014/bigbluebutton/blob/master/README.md"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alireza5014\\Bigbluebutton\\BigbluebuttonServiceProvider"
+            ],
+            "aliases": {
+                "Bigbluebutton": "Alireza5014\\Bigbluebutton\\Facades\\Bigbluebutton"
+            }
+        }
+    }
+}
