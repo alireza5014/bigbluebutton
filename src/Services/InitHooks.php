@@ -2,8 +2,8 @@
 
 namespace Alireza5014\Bigbluebutton\Services;
 
-use BigBlueButton\Parameters\HooksCreateParameters;
-use BigBlueButton\Parameters\HooksDestroyParameters;
+use Alireza5014\Parameters\HooksCreateParameters;
+use Alireza5014\Parameters\HooksDestroyParameters;
 
 trait InitHooks
 {

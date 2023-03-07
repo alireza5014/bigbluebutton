@@ -2,7 +2,7 @@
 
 namespace Alireza5014\Bigbluebutton\Services;
 
-use BigBlueButton\Parameters\IsMeetingRunningParameters;
+use Alireza5014\Parameters\IsMeetingRunningParameters;
 
 trait InitExtra
 {

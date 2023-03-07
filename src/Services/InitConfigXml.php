@@ -2,7 +2,7 @@
 
 namespace Alireza5014\Bigbluebutton\Services;
 
-use BigBlueButton\Parameters\SetConfigXMLParameters;
+use Alireza5014\Parameters\SetConfigXMLParameters;
 
 trait InitConfigXml
 {

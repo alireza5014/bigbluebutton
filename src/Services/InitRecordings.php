@@ -2,10 +2,10 @@
 
 namespace Alireza5014\Bigbluebutton\Services;
 
-use BigBlueButton\Parameters\DeleteRecordingsParameters;
-use BigBlueButton\Parameters\GetRecordingsParameters;
-use BigBlueButton\Parameters\PublishRecordingsParameters;
-use BigBlueButton\Parameters\UpdateRecordingsParameters;
+use Alireza5014\Parameters\DeleteRecordingsParameters;
+use Alireza5014\Parameters\GetRecordingsParameters;
+use Alireza5014\Parameters\PublishRecordingsParameters;
+use Alireza5014\Parameters\UpdateRecordingsParameters;
 
 trait InitRecordings
 {

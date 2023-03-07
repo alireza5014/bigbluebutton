@@ -2,11 +2,11 @@
 
 namespace Alireza5014\Bigbluebutton\Services;
 
-use BigBlueButton\Parameters\CreateMeetingParameters;
-use BigBlueButton\Parameters\EndMeetingParameters;
-use BigBlueButton\Parameters\GetMeetingInfoParameters;
-use BigBlueButton\Parameters\IsMeetingRunningParameters;
-use BigBlueButton\Parameters\JoinMeetingParameters;
+use Alireza5014\Parameters\CreateMeetingParameters;
+use Alireza5014\Parameters\EndMeetingParameters;
+use Alireza5014\Parameters\GetMeetingInfoParameters;
+use Alireza5014\Parameters\IsMeetingRunningParameters;
+use Alireza5014\Parameters\JoinMeetingParameters;
 use Illuminate\Support\Str;
 
 trait InitMeeting
