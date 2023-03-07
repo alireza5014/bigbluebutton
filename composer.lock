@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alireza5014/bigbluebutton-api-php.git",
-                "reference": "286dc342b1d480aba3713f3fbe2abee7cb22ab9e"
+                "reference": "80959ed8321a7b4f731026b8058deac6fe49e9eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alireza5014/bigbluebutton-api-php/zipball/286dc342b1d480aba3713f3fbe2abee7cb22ab9e",
-                "reference": "286dc342b1d480aba3713f3fbe2abee7cb22ab9e",
+                "url": "https://api.github.com/repos/alireza5014/bigbluebutton-api-php/zipball/80959ed8321a7b4f731026b8058deac6fe49e9eb",
+                "reference": "80959ed8321a7b4f731026b8058deac6fe49e9eb",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +38,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Alireza5014\\BigBlueButtonPHP\\": "src/"
+                    "BigBlueButtonPHP\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -63,7 +63,7 @@
                 "issues": "https://github.com/alireza5014/bigbluebutton-api-php/issues",
                 "source": "https://github.com/alireza5014/bigbluebutton-api-php/tree/master"
             },
-            "time": "2023-03-07T11:41:46+00:00"
+            "time": "2023-03-07T11:51:43+00:00"
         },
         {
             "name": "doctrine/inflector",

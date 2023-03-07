@@ -2,7 +2,7 @@
 
 namespace Alireza5014\Bigbluebutton;
 
-use Alireza5014\BigBlueButton as BigBlueButtonParent;
+use Alireza5014\BigBlueButtonPHP as BigBlueButtonParent;
 use Alireza5014\Util\UrlBuilder;
 use Illuminate\Support\Str;
 
