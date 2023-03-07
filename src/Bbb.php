@@ -2,19 +2,19 @@
 
 namespace Alireza5014\Bigbluebutton;
 
-use BigBlueButton\BigBlueButton;
-use BigBlueButton\Parameters\CreateMeetingParameters;
-use BigBlueButton\Parameters\DeleteRecordingsParameters;
-use BigBlueButton\Parameters\EndMeetingParameters;
-use BigBlueButton\Parameters\GetMeetingInfoParameters;
-use BigBlueButton\Parameters\GetRecordingsParameters;
-use BigBlueButton\Parameters\HooksCreateParameters;
-use BigBlueButton\Parameters\HooksDestroyParameters;
-use BigBlueButton\Parameters\IsMeetingRunningParameters;
-use BigBlueButton\Parameters\JoinMeetingParameters;
-use BigBlueButton\Parameters\PublishRecordingsParameters;
-use BigBlueButton\Parameters\SetConfigXMLParameters;
-use BigBlueButton\Parameters\UpdateRecordingsParameters;
+use Alireza5014\BigBlueButton;
+use Alireza5014\Parameters\CreateMeetingParameters;
+use Alireza5014\Parameters\DeleteRecordingsParameters;
+use Alireza5014\Parameters\EndMeetingParameters;
+use Alireza5014\Parameters\GetMeetingInfoParameters;
+use Alireza5014\Parameters\GetRecordingsParameters;
+use Alireza5014\Parameters\HooksCreateParameters;
+use Alireza5014\Parameters\HooksDestroyParameters;
+use Alireza5014\Parameters\IsMeetingRunningParameters;
+use Alireza5014\Parameters\JoinMeetingParameters;
+use Alireza5014\Parameters\PublishRecordingsParameters;
+use Alireza5014\Parameters\SetConfigXMLParameters;
+use Alireza5014\Parameters\UpdateRecordingsParameters;
 use Alireza5014\Bigbluebutton\Bigbluebutton as BigBlueButtonServer;
 use Alireza5014\Bigbluebutton\Services\InitConfigXml;
 use Alireza5014\Bigbluebutton\Services\InitExtra;
