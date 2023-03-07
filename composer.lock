@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alireza5014/bigbluebutton-api-php.git",
-                "reference": "b2075f155b9091bd0f673cf6a0aac9a4f5757803"
+                "reference": "ceb39d80e6d2733b79d1ca0e5548f04f4dd30f5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alireza5014/bigbluebutton-api-php/zipball/b2075f155b9091bd0f673cf6a0aac9a4f5757803",
-                "reference": "b2075f155b9091bd0f673cf6a0aac9a4f5757803",
+                "url": "https://api.github.com/repos/alireza5014/bigbluebutton-api-php/zipball/ceb39d80e6d2733b79d1ca0e5548f04f4dd30f5a",
+                "reference": "ceb39d80e6d2733b79d1ca0e5548f04f4dd30f5a",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +38,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BigBlueButtonPHP\\": "src"
+                    "Alireza5014\\BigBlueButtonPHP\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -52,18 +52,18 @@
                     "role": "Developer"
                 }
             ],
-            "description": "bigbluebutton PHP API Library for PHP",
-            "homepage": "https://bigbluebutton.org/",
+            "description": "BigBlueButton PHP API Library for PHP",
+            "homepage": "http://bigbluebutton.org/",
             "keywords": [
-                "alireza5014",
                 "api",
-                "bbb"
+                "bbb",
+                "bigbluebutton"
             ],
             "support": {
                 "issues": "https://github.com/alireza5014/bigbluebutton-api-php/issues",
                 "source": "https://github.com/alireza5014/bigbluebutton-api-php/tree/master"
             },
-            "time": "2023-03-07T10:44:55+00:00"
+            "time": "2023-03-07T11:22:58+00:00"
         },
         {
             "name": "doctrine/inflector",

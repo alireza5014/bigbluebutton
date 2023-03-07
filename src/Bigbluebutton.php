@@ -2,10 +2,9 @@
 
 namespace Alireza5014\Bigbluebutton;
 
-use Alireza5014\BigBlueButtonPHP as BigBlueButtonParent;
-use Alireza5014\Util\UrlBuilder;
+use BigBlueButton\BigBlueButton as BigBlueButtonParent;
+use BigBlueButton\Util\UrlBuilder;
 use Illuminate\Support\Str;
-use PHPUnit\Framework\MockObject\Api;
 
 class Bigbluebutton extends BigBlueButtonParent
 {

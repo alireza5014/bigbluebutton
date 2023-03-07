@@ -1,8 +1,8 @@
 {
-    "name": "alireza5014/bigbluebutton",
+    "name": "joisarjignesh/bigbluebutton",
     "description": "BigBlueButton Server API Library for Laravel",
     "keywords": [
-        "alireza5014",
+        "joisarjignesh",
         "bigbluebutton",
         "api",
         "bbb",
@@ -12,7 +12,7 @@
         "laravel",
         "php"
     ],
-    "homepage": "https://github.com/alireza5014/bigbluebutton",
+    "homepage": "https://github.com/joisarjignesh/bigbluebutton",
     "license": "MIT",
     "version": "v1.2.5",
     "type": "library",
@@ -27,7 +27,7 @@
     "require": {
         "php": ">=7.0",
         "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
-        "alireza5014/bigbluebutton-api-php": "dev-master"
+        "bigbluebutton/bigbluebutton-api-php": "^2.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Alireza5014\\Bigbluebutton\\": "src/"
+            "JoisarJignesh\\Bigbluebutton\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -43,7 +43,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Alireza5014\\Bigbluebutton\\Tests\\": "tests/"
+            "JoisarJignesh\\Bigbluebutton\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -56,17 +56,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "support": {
-        "source": "https://github.com/alireza5014/bigbluebutton",
-        "issues": "https://github.com/alireza5014/bigbluebutton/issues",
-        "docs": "https://github.com/alireza5014/bigbluebutton/blob/master/README.md"
+        "source": "https://github.com/joisarjignesh/bigbluebutton",
+        "issues": "https://github.com/joisarjignesh/bigbluebutton/issues",
+        "docs": "https://github.com/joisarjignesh/bigbluebutton/blob/master/README.md"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alireza5014\\Bigbluebutton\\BigbluebuttonServiceProvider"
+                "JoisarJignesh\\Bigbluebutton\\BigbluebuttonServiceProvider"
             ],
             "aliases": {
-                "Bigbluebutton": "Alireza5014\\Bigbluebutton\\Facades\\Bigbluebutton"
+                "Bigbluebutton": "JoisarJignesh\\Bigbluebutton\\Facades\\Bigbluebutton"
             }
         }
     }
