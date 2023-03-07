@@ -2,8 +2,8 @@
 
 namespace Alireza5014\Bigbluebutton;
 
-use BigBlueButton\BigBlueButtonPHP as BigBlueButtonParent;
-use BigBlueButton\Util\UrlBuilder;
+use Alireza5014\BigBlueButton as BigBlueButtonParent;
+use Alireza5014\Util\UrlBuilder;
 use Illuminate\Support\Str;
 
 class Bigbluebutton extends BigBlueButtonParent
